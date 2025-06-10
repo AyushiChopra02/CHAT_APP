@@ -5,7 +5,7 @@ import { HOST } from "@/utils/constants"; // Ensure HOST is imported correctly
 const ContactList = ({ contacts, isChannel = false }) => {
   const {
     selectedChatData,
-    setSelectedChatData,
+    setSelectedChatData,  
     setSelectedChatType,
     selectedChatMessages,
     setSelectedChatMessages,
